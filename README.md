@@ -22,8 +22,7 @@ authMethod:[
 
 			// object containing information about your smtp server, see nodemailer
 			mail: {
-				protocol: string, // the transport protocol
-				options: string, // how it is use te transport method, see nodemailer
+				options: string, // how it uses the transport method, see nodemailer
 				from: string, // the from address
 				subject: string, // the email subject for password reset emails
 				forwardUrl: string // the url to send the user to after they have clicked the password reset link in their inbox (e.g. a form on your site which POST to `/auth/reset`)
