@@ -42,7 +42,8 @@ module.exports.waterlock = {
           file: "../views/email.jade",
           vars:{}
         }
-      }
+     },
+     createOnNotFound: false
     }
   ],
 

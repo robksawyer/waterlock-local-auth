@@ -14,4 +14,9 @@ describe('controller index', function(){
     index.logout.should.be.Function;
     done();
   });
+  it('should export register', function(done){
+    index.should.have.property('register');
+    index.register.should.be.Function;
+    done();
+  });
 })
